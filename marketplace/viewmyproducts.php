@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 //namespace Verot\Upload;
 include('includes/header.php');
 //include('src/class.upload.php');

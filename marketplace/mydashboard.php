@@ -1,5 +1,4 @@
-﻿<?php include('includes/header.php');
-
+<?php include('includes/header.php');
 if(!loggedin())
 	{
 		echo '<script language="JavaScript">

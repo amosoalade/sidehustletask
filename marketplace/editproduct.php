@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 include('includes/header.php');
 
 
@@ -38,9 +38,6 @@ if (isset($_POST['submit']) and $_POST['submit'] == "Update") {
   if (empty($name)) {
     $nameErr = "Product name is required";
   } 
-  elseif (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-    $nameErr = "Only letters and white space allowed";
-  }
   elseif (!is_numeric($price)) {
     $priceErr = "Valid Product price is required";
   } 

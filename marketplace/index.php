@@ -1,4 +1,4 @@
-﻿<?php include('includes/header.php');
+<?php include('includes/header.php');
 
 $query = "select * from products order by productsID DESC";
 

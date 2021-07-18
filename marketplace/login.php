@@ -1,4 +1,4 @@
-﻿<?php 	include('includes/header.php');
+<?php 	include('includes/header.php');
 		$username=$password=$msg="";
 		$usernameErr=$passwordErr="";
 
